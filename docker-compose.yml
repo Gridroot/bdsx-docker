@@ -7,6 +7,6 @@ services:
       - 19132:19132/udp
     volumes:
       - ./root:/root
-    stdin_open: true
-    tty: true
+    # stdin_open: true
+    # tty: true
     restart: always
