@@ -6,7 +6,6 @@ services:
       context: ./
     ports:
       - 19132:19132/udp
-    environment:
     volumes:
       - ./root:/root
     stdin_open: true
