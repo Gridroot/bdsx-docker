@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  bdsx:
+    build:
+      context: ./
+    ports:
+      - 19132:19132/udp
+    environment:
+    volumes:
+      - ./root:/root
+    stdin_open: true
+    tty: true
+    restart: always
