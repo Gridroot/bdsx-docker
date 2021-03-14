@@ -2,8 +2,7 @@ version: '3'
 
 services:
   bdsx:
-    build:
-      context: ./
+    image: karikera/bdsx
     ports:
       - 19132:19132/udp
     volumes:
