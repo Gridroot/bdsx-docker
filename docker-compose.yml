@@ -5,8 +5,8 @@ services:
     image: karikera/bdsx
     ports:
       - 19132:19132/udp
-    # volumes:
-    #   - ./root:/root
+    volumes:
+      - ./bdsx:/root/bdsx
     # stdin_open: true
     # tty: true
     restart: always
